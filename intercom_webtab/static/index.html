@@ -407,7 +407,10 @@ html, body { width:1024px; height:748px; overflow:hidden; background:#000; color
 .dot { position:absolute; width:6px; height:6px; border-radius:50%; }
 .val { font:300 40px/47px -apple-system, system-ui, "Helvetica Neue", sans-serif; color:#FFFFFF; }
 .rg { position:absolute; height:1px; }
-.rb { position:absolute; width:14px; border-radius:2px 2px 0 0; }
+.rb { position:absolute; width:14px; border-radius:2px 2px 0 0;
+  /* a new forecast grows / shrinks the bars instead of jumping */
+  -webkit-transition:top .9s ease-in-out, height .9s ease-in-out, background-color .9s;
+  transition:top .9s ease-in-out, height .9s ease-in-out, background-color .9s; }
 
 /* data-source attribution: tiny, low contrast, vertical along the right edge of the bottom-right
    corner, inside the 32 px margin right of the widgets and the chart (x 1004-1015). Rotated about
