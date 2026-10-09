@@ -27,8 +27,8 @@ Screen. You do not need an app or an account.
 
 ![All 39 animated dot-matrix weather icons](docs/media/icons.gif)
 
-Full videos, 1920x1080: [a 70-second tour](docs/media/demo-1080p.mp4) and
-[how the dot-matrix icons are made](docs/media/icons-1080p.mp4).
+Full videos, 1920x1080 MP4 (download): [a 70-second tour](docs/media/demo-1080p.mp4?raw=true)
+and [how the dot-matrix icons are made](docs/media/icons-1080p.mp4?raw=true).
 
 ## Screenshots
 
