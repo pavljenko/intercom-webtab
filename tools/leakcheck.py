@@ -36,7 +36,7 @@ CRED_URL = re.compile(r"[a-z][a-z0-9+.-]*://[^\s/:@]+:[^\s/@]+@", re.I)
 EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 EMAIL_OK = re.compile(r"(noreply|no-reply)@|@(example\.(com|org|net)|[a-z0-9.-]*\.invalid)$|"
                       r"@users\.noreply\.github\.com$", re.I)
-BINARY_EXT = {".png", ".jpg", ".jpeg", ".gif", ".ico", ".wav", ".pdf", ".woff", ".woff2"}
+BINARY_EXT = {".png", ".jpg", ".jpeg", ".gif", ".ico", ".wav", ".pdf", ".woff", ".woff2", ".mp4", ".webm"}
 SELF = "tools/leakcheck.py"
 
 

@@ -76,8 +76,14 @@ needed for UTCI, the word falls back to the title of the current scene, for exam
 ## Scenes and icons
 
 Each moment maps to one of **39 scenes**, drawn as animated dot-matrix icons on a 22x18
-grid (`static/dots.js`). The order of the checks is the priority, so dangerous and more
-specific conditions win:
+grid (`static/dots.js`). Each icon is built from simple shapes (circles and line segments)
+that are tested at the dot centres, and a new frame is drawn every 150 ms. On a non-Retina
+iPad every dot lands exactly on 2x2 pixels, so the icons stay sharp, and they need no
+image files.
+
+![How a dot-matrix icon is made: the smooth cloud shape becomes dots on the grid](media/dot-icon.gif)
+
+The order of the checks is the priority, so dangerous and more specific conditions win:
 
 1. **Thunderstorms:** with hail, severe (gusts from 20 m/s), ordinary.
 2. **Freezing precipitation:** freezing rain, freezing drizzle. This includes liquid

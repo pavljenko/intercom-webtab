@@ -108,6 +108,10 @@ megforce1, "A clear blue sky with scattered fluffy white clouds." by Deepak Rajp
 region 2674 on today's Sun" by upsidedown astronomer, "Lightning Dark" by Jeremy Thomas and
 "Dark Night" by Matthew Kane.
 
+The demo videos and animations in `docs/media/` are recordings of the preview server and
+show the same six photos. The door-camera clip in them was generated with an AI video
+model for this project. The people and the place in it are fictional.
+
 ## Methods and formulas
 
 ### UTCI polynomial

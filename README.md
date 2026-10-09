@@ -9,6 +9,29 @@ A small Linux server does the work: Asterisk takes the SIP call from the door pa
 door-opening digit when you tap **Open**. The iPad only runs a web page saved to its Home
 Screen. You do not need an app or an account.
 
+## See it in action
+
+**The weather panel.** The photo, the icon, the words and the chart follow the weather.
+
+![Demo: the background photo, the icon and the precipitation chart change from heat to night, rain, snow and a thunderstorm](docs/media/weather.gif)
+
+**A visitor rings.** The camera picture appears at once. Tap Answer to listen, then Open.
+
+![Demo: an incoming call with the door camera, Answer and Open, then back to the weather](docs/media/call.gif)
+
+**The widgets.** Wind, air quality, UV index, pressure, radiation and the sun.
+
+![Demo: a close look at the six widgets](docs/media/widgets.gif)
+
+**39 animated icons**, drawn by code as dots on a 22x18 grid.
+
+![All 39 animated dot-matrix weather icons](docs/media/icons.gif)
+
+Full videos, 1920x1080: [a 70-second tour](docs/media/demo-1080p.mp4) and
+[how the dot-matrix icons are made](docs/media/icons-1080p.mp4).
+
+## Screenshots
+
 | Idle: rain ending soon | Idle: rain expected at 16:00 |
 |---|---|
 | ![Idle station, rain on the window, rain ending within the hour](docs/screenshots/idle-rain.png) | ![Idle station, clouds, rain expected in the afternoon](docs/screenshots/idle-cloudy.png) |
