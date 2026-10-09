@@ -1,0 +1,39 @@
+; Intercom WebTab - dialplan
+; Rendered by deploy/render.py from deploy/asterisk/extensions.conf.tmpl.
+
+[general]
+static = yes
+writeprotect = yes
+clearglobalvars = no
+
+[globals]
+
+; Door-panel calls (from the provider trunk or from door stations). The station rings
+; and only answers when the owner presses Answer or Open; the panel's own timeout
+; decides how long it rings. The context name is listed in [asterisk] incoming_contexts:
+; the station finds the guest's channel by it.
+[{INCOMING_CONTEXT}]
+exten => _X.,1,Goto(ring,1)
+exten => _+X.,1,Goto(ring,1)
+exten => s,1,Goto(ring,1)
+exten => ring,1,NoOp(Door panel call from ${CALLERID(num)})
+ same => n,Dial(PJSIP/webtab,180)
+ same => n,Hangup()
+
+; Camera view through SIP: the station originates a call to the panel into this
+; context; once the panel answers, it is bridged to the station with our CallerID.
+[{VIEW_CONTEXT}]
+exten => {VIEW_EXTEN},1,NoOp(Camera view call)
+ same => n,Dial(PJSIP/webtab,30)
+ same => n,Hangup()
+
+; Demo calls from the panel simulator on localhost.
+[{DEMO_CONTEXT}]
+exten => {VIEW_EXTEN},1,NoOp(Demo call from the panel simulator)
+ same => n,Dial(PJSIP/webtab,60)
+ same => n,Hangup()
+exten => _X.,1,Goto({VIEW_EXTEN},1)
+
+; The station endpoint never places calls.
+[intercom-none]
+exten => _X.,1,Hangup()

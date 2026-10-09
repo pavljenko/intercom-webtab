@@ -1,0 +1,11 @@
+# Who may send SIP (UDP 5060) and RTP (UDP 10000-10100) to this Asterisk.
+# One IPv4/IPv6 address, network (CIDR) or host name per line; '#' starts a comment.
+# Copy to /etc/intercom-webtab/sip_peers.txt and run:
+#   sudo /opt/intercom-webtab/deploy/firewall/apply.sh
+# The [provider] host from secrets.ini is added automatically (variant A).
+# Empty: SIP and RTP from localhost only (fail-closed).
+
+# variant A: extra signalling or media servers of the SIP provider
+#198.51.100.40
+# variant B: the IP door station(s) on the local network
+#192.0.2.50

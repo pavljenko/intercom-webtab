@@ -1,0 +1,163 @@
+{
+ "v": 3,
+ "ts": 1791550800,
+ "now": {
+  "scene": "not-available",
+  "day": null,
+  "utci": null,
+  "utciTxt": "—",
+  "word": "No data",
+  "L": null,
+  "t": null,
+  "tTxt": "—",
+  "stale": false,
+  "ahead": []
+ },
+ "status": [
+  {
+   "text": "Loading the weather…",
+   "tone": "calm",
+   "key": "wx_wait",
+   "P": 5,
+   "L": 0
+  }
+ ],
+ "rot": false,
+ "widgets": [
+  {
+   "k": "wind",
+   "name": "Wind",
+   "L": null,
+   "val": "—",
+   "unit": "",
+   "note": "no data"
+  },
+  {
+   "k": "air",
+   "name": "Air",
+   "L": 0,
+   "val": "25",
+   "unit": "AQI",
+   "note": "good"
+  },
+  {
+   "k": "uv",
+   "name": "UV index",
+   "L": null,
+   "val": "—",
+   "unit": "",
+   "note": "no data"
+  },
+  {
+   "k": "pressure",
+   "name": "Pressure",
+   "L": null,
+   "val": "—",
+   "unit": "",
+   "note": "no data"
+  },
+  {
+   "k": "radiation",
+   "name": "Radiation",
+   "L": 0,
+   "val": "0.12",
+   "unit": "µSv/h",
+   "note": "normal, 8 stations"
+  },
+  {
+   "k": "sun",
+   "name": "Sun",
+   "L": null,
+   "val": "—",
+   "unit": "",
+   "note": "no data"
+  }
+ ],
+ "rain": {
+  "cols": [
+   {
+    "h": "14",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "15",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "16",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "17",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "18",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "19",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "20",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "21",
+    "pp": null,
+    "snow": 0
+   },
+   {
+    "h": "22",
+    "pp": null,
+    "snow": 0
+   }
+  ],
+  "gray": true
+ },
+ "photo": {
+  "key": "overcast-warm-9cf4",
+  "bg": "/ph/overcast-warm-9cf4/bg.jpg",
+  "panel": "/ph/overcast-warm-9cf4/panel.jpg",
+  "tone": "#16191c",
+  "next": []
+ },
+ "fresh": {
+  "wx": {
+   "st": "ok",
+   "age": 300,
+   "fail": 0
+  },
+  "air": {
+   "st": "ok",
+   "age": 1800,
+   "fail": 0
+  },
+  "rad": {
+   "st": "ok",
+   "age": 3600,
+   "fail": 0,
+   "date": "2026-10-09"
+  },
+  "cam": {
+   "gate": {
+    "st": "ok",
+    "age": 1
+   },
+   "door": {
+    "st": "ok",
+    "age": 1
+   }
+  }
+ },
+ "attribution": "Weather: Open-Meteo.com · Air: CAMS · Radiation: Test network",
+ "_title": "scene not-available: No data"
+}

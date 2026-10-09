@@ -1,0 +1,27 @@
+# Local configuration and secrets: never commit
+webtab.ini
+sip_peers*.txt
+!deploy/firewall/sip_peers.example.txt
+*.nft
+*.bak-*
+run/
+*.local.ini
+secrets*.ini
+!secrets.example.ini
+*.env
+token*
+!tools/**/token*.py
+rtsp*.txt
+allowlist*.txt
+!deploy/firewall/allowlist.example.txt
+# Runtime state and captures
+state/
+*.pcap
+frames/
+# Python, OS, editors
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.idea/
+.vscode/

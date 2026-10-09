@@ -1,0 +1,14 @@
+# Networks that may open the station page (TCP port from [http] port).
+# One IPv4/IPv6 address, network (CIDR) or host name per line; '#' starts a comment.
+# Copy to /etc/intercom-webtab/allowlist.txt and run:
+#   sudo /opt/intercom-webtab/deploy/firewall/apply.sh
+# Empty or missing file: the page is reachable from this machine only (fail-closed).
+#
+# The token travels in plain HTTP. Prefer a home network or a VPN over the open internet.
+
+# the home network the iPad is on
+192.0.2.0/24
+# a single address (for example a VPN exit)
+198.51.100.25
+# a provider address pool
+203.0.113.0/26

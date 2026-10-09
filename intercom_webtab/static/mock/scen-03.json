@@ -1,0 +1,170 @@
+{
+ "v": 3,
+ "ts": 1791557700,
+ "now": {
+  "scene": "rain",
+  "day": 1,
+  "utci": 10,
+  "utciTxt": "10°",
+  "word": "Fresh",
+  "L": 0,
+  "t": 12.0,
+  "tTxt": "12°",
+  "stale": false,
+  "ahead": [
+   "overcast"
+  ]
+ },
+ "status": [
+  {
+   "text": "Dry within the hour",
+   "tone": "info",
+   "key": "rain_end",
+   "P": 3,
+   "L": 1
+  }
+ ],
+ "rot": false,
+ "widgets": [
+  {
+   "k": "wind",
+   "name": "Wind",
+   "L": 0,
+   "val": "3",
+   "unit": "m/s",
+   "note": "gusts 6, west"
+  },
+  {
+   "k": "air",
+   "name": "Air",
+   "L": 0,
+   "val": "25",
+   "unit": "AQI",
+   "note": "good"
+  },
+  {
+   "k": "uv",
+   "name": "UV index",
+   "L": 0,
+   "val": "1",
+   "unit": "of 11",
+   "note": "up to 3 today"
+  },
+  {
+   "k": "pressure",
+   "name": "Pressure",
+   "L": 0,
+   "val": "1012",
+   "unit": "hPa",
+   "note": "no change"
+  },
+  {
+   "k": "radiation",
+   "name": "Radiation",
+   "L": 0,
+   "val": "0.12",
+   "unit": "µSv/h",
+   "note": "normal, 8 stations"
+  },
+  {
+   "k": "sun",
+   "name": "Sun",
+   "L": -1,
+   "val": "17:45",
+   "unit": "sunset",
+   "note": "sunrise 06:30"
+  }
+ ],
+ "rain": {
+  "cols": [
+   {
+    "h": "15",
+    "pp": 90,
+    "snow": 0
+   },
+   {
+    "h": "16",
+    "pp": 80,
+    "snow": 0
+   },
+   {
+    "h": "17",
+    "pp": 20,
+    "snow": 0
+   },
+   {
+    "h": "18",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "19",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "20",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "21",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "22",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "23",
+    "pp": 0,
+    "snow": 0
+   }
+  ],
+  "gray": false
+ },
+ "photo": {
+  "key": "rain-e891",
+  "bg": "/ph/rain-e891/bg.jpg",
+  "panel": "/ph/rain-e891/panel.jpg",
+  "tone": "#16191c",
+  "next": [
+   {
+    "bg": "/ph/overcast-warm-9cf4/bg.jpg",
+    "panel": "/ph/overcast-warm-9cf4/panel.jpg"
+   }
+  ]
+ },
+ "fresh": {
+  "wx": {
+   "st": "ok",
+   "age": 300,
+   "fail": 0
+  },
+  "air": {
+   "st": "ok",
+   "age": 1800,
+   "fail": 0
+  },
+  "rad": {
+   "st": "ok",
+   "age": 3600,
+   "fail": 0,
+   "date": "2026-10-09"
+  },
+  "cam": {
+   "gate": {
+    "st": "ok",
+    "age": 1
+   },
+   "door": {
+    "st": "ok",
+    "age": 1
+   }
+  }
+ },
+ "attribution": "Weather: Open-Meteo.com · Air: CAMS · Radiation: Test network",
+ "_title": "3: raining, ends soon"
+}

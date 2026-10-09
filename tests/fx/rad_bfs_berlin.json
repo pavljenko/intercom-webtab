@@ -1,0 +1,259 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.58,
+     52.6
+    ]
+   },
+   "properties": {
+    "id": "DEZ2377",
+    "name": "Ahrensfelde",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.104,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.53,
+     52.38
+    ]
+   },
+   "properties": {
+    "id": "DEZ2609",
+    "name": "Schönefeld",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.11,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.15,
+     52.47
+    ]
+   },
+   "properties": {
+    "id": "DEZ2858",
+    "name": "Berlin-Gatow",
+    "site_status": 3,
+    "site_status_text": "Testbetrieb",
+    "start_measure": null,
+    "end_measure": null,
+    "value": null,
+    "unit": "µSv/h",
+    "validated": null,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.5,
+     52.63
+    ]
+   },
+   "properties": {
+    "id": "DEZ2860",
+    "name": "Berlin-Buch",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T13:00:00Z",
+    "end_measure": "2026-10-09T14:00:00Z",
+    "value": 0.087,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.54,
+     52.48
+    ]
+   },
+   "properties": {
+    "id": "DEZ2862",
+    "name": "Berlin-Karlshorst",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.104,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.06,
+     52.38
+    ]
+   },
+   "properties": {
+    "id": "DEZ2873",
+    "name": "Potsdam",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.083,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.13,
+     52.41
+    ]
+   },
+   "properties": {
+    "id": "DEZ2959",
+    "name": "Berlin-Wannsee",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.085,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.31,
+     52.31
+    ]
+   },
+   "properties": {
+    "id": "DEZ3081",
+    "name": "Ludwigsfelde OT Genshagen",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.093,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.4,
+     52.47
+    ]
+   },
+   "properties": {
+    "id": "DEZ3350",
+    "name": "Berlin-Tempelhof",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.086,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.71,
+     52.44
+    ]
+   },
+   "properties": {
+    "id": "DEZ3446",
+    "name": "Berlin-Rahnsdorf",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T16:00:00Z",
+    "end_measure": "2026-10-09T17:00:00Z",
+    "value": 0.097,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.13,
+     52.56
+    ]
+   },
+   "properties": {
+    "id": "DEZ3469",
+    "name": "Falkensee",
+    "site_status": 1,
+    "site_status_text": "in Betrieb",
+    "start_measure": "2026-10-09T13:00:00Z",
+    "end_measure": "2026-10-09T14:00:00Z",
+    "value": 0.079,
+    "unit": "µSv/h",
+    "validated": 1,
+    "nuclide": "Gamma-ODL-Brutto",
+    "duration": "1h"
+   }
+  }
+ ],
+ "totalFeatures": 11
+}

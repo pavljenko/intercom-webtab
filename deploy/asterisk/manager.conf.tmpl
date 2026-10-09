@@ -1,0 +1,18 @@
+; Intercom WebTab - Asterisk Manager Interface
+; Rendered by deploy/render.py from deploy/asterisk/manager.conf.tmpl.
+; Localhost only. The station needs: CoreShowChannels (reporting), Originate
+; (originate), PlayDTMF and Hangup (call). Nothing else.
+
+[general]
+enabled = yes
+port = {AMI_PORT}
+bindaddr = 127.0.0.1
+displayconnects = no
+
+[{AMI_USER}]
+secret = {AMI_SECRET}
+deny = 0.0.0.0/0.0.0.0
+permit = 127.0.0.1/255.255.255.255
+read = system,call,reporting,originate
+write = originate,call,reporting
+writetimeout = 5000

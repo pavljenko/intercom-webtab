@@ -1,0 +1,32 @@
+[Unit]
+Description=Intercom WebTab (door intercom station and weather panel)
+After=network-online.target asterisk.service
+Wants=network-online.target asterisk.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+# not root: the token, secrets and camera passwords are readable by the webtab group
+User=webtab
+Group=webtab
+WorkingDirectory=/opt/intercom-webtab
+Environment=PYTHONPATH=/opt/intercom-webtab
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStartPre=/usr/bin/python3 -m intercom_webtab --config /etc/intercom-webtab/webtab.ini --check
+ExecStart=/usr/bin/python3 -m intercom_webtab --config /etc/intercom-webtab/webtab.ini
+# /var/lib/intercom-webtab (weather state, reload.flag) and /run/intercom-webtab (ffmpeg logs)
+StateDirectory=intercom-webtab
+StateDirectoryMode=0750
+RuntimeDirectory=intercom-webtab
+RuntimeDirectoryMode=0700
+NoNewPrivileges=yes
+ProtectSystem=full
+ProtectHome=yes
+PrivateTmp=yes
+Restart=always
+RestartSec=3
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

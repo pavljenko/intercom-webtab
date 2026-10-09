@@ -1,0 +1,309 @@
+{
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "features": [
+  {
+   "attributes": {
+    "location_name": "1000_10_43.8173_-79.0614",
+    "latest_value_nSvHr": 29,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.0613932949444,
+    "y": 43.81730862899775
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "1000_11_43.8173_-79.0737",
+    "latest_value_nSvHr": 43,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.0737432990784,
+    "y": 43.817308628746275
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "1000_2_43.8161_-79.0579",
+    "latest_value_nSvHr": 35,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.05790329384097,
+    "y": 43.816144628992035
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "1000_3_43.8170_-79.0714",
+    "latest_value_nSvHr": 36,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.07140329791966,
+    "y": 43.8169756281206
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "1000_4_43.8151_-79.0792",
+    "latest_value_nSvHr": 32,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.07919330007174,
+    "y": 43.81510862750023
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "1000_6_43.8121_-79.0521",
+    "latest_value_nSvHr": 44,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.05210329140247,
+    "y": 43.81213462790619
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "1000_7_43.8181_-79.0656",
+    "latest_value_nSvHr": 28,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.06560329661998,
+    "y": 43.81813962932573
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "1000_8_43.8130_-79.0895",
+    "latest_value_nSvHr": 32,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.0895033025413,
+    "y": 43.8130216263469
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "4000_1_43.8745_-78.7024",
+    "latest_value_nSvHr": 34,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.70243318409875,
+    "y": 43.87452865530369
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "4000_2_43.8809_-78.7053",
+    "latest_value_nSvHr": 36,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.70526318515167,
+    "y": 43.88085865626284
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "4000_3_43.8847_-78.7120",
+    "latest_value_nSvHr": 40,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.71202318889598,
+    "y": 43.884718656897824
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "4000_4_43.8781_-78.7416",
+    "latest_value_nSvHr": 39,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.74157719722744,
+    "y": 43.87810665381058
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "4000_5_43.8778_-78.7525",
+    "latest_value_nSvHr": 38,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.75253320113193,
+    "y": 43.87784865383321
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "4000_6_43.8712_-78.7590",
+    "latest_value_nSvHr": 38,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.75900320240025,
+    "y": 43.87120865183477
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "4000_7_43.8959_-78.7252",
+    "latest_value_nSvHr": 33,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.72522219437319,
+    "y": 43.89589165785396
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_1_43.7769_-79.2719",
+    "latest_value_nSvHr": 20,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.27190335966317,
+    "y": 43.776908611940755
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_10_43.2614_-79.9211",
+    "latest_value_nSvHr": 33,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.92112351961649,
+    "y": 43.261413490728444
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_12_43.1528_-79.2792",
+    "latest_value_nSvHr": 14,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.27917030589214,
+    "y": 43.152786500835816
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_2_43.8999_-78.6866",
+    "latest_value_nSvHr": 51,
+    "time": 1791480600000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.68660318238159,
+    "y": 43.89990866043448
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_3_43.6974_-79.6161",
+    "latest_value_nSvHr": 22,
+    "time": 1791567900000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.61608646103136,
+    "y": 43.697425581622355
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_4_43.7180_-79.2563",
+    "latest_value_nSvHr": 21,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.25630334761233,
+    "y": 43.718008602546405
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_6_43.9055_-78.8351",
+    "latest_value_nSvHr": 23,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.83510322963241,
+    "y": 43.9055086543625
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_7_43.8512_-79.2693",
+    "latest_value_nSvHr": 28,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.26930336482198,
+    "y": 43.85120862522254
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_8_43.8195_-79.0179",
+    "latest_value_nSvHr": 38,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -79.01790328225357,
+    "y": 43.81950863113227
+   }
+  },
+  {
+   "attributes": {
+    "location_name": "5000_9_43.9423_-78.2983",
+    "latest_value_nSvHr": 33,
+    "time": 1791567000000,
+    "dose_rate_type": "Terrestrial Gamma "
+   },
+   "geometry": {
+    "x": -78.29830306148976,
+    "y": 43.94230868585291
+   }
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+#!/bin/sh
+# Block commits that would leak personal or secret data (see tools/leakcheck.py).
+# A private denylist outside the repository is picked up automatically when present.
+G="$HOME/.config/intercom-webtab-guard"
+[ -z "$IWT_DENYLIST" ] && [ -f "$G/denylist.txt" ] && IWT_DENYLIST="$G/denylist.txt" && export IWT_DENYLIST
+[ -z "$IWT_ALLOWLIST" ] && [ -f "$G/allow.txt" ] && IWT_ALLOWLIST="$G/allow.txt" && export IWT_ALLOWLIST
+exec python3 tools/leakcheck.py --staged

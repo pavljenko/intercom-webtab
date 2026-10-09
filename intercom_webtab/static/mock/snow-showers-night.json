@@ -1,0 +1,177 @@
+{
+ "v": 3,
+ "ts": 1791583200,
+ "now": {
+  "scene": "snow-showers-night",
+  "day": 0,
+  "utci": -10,
+  "utciTxt": "−10°",
+  "word": "Frosty",
+  "L": 2,
+  "t": -2.0,
+  "tTxt": "−2°",
+  "stale": false,
+  "ahead": [
+   "partly-cloudy-night"
+  ]
+ },
+ "status": [
+  {
+   "text": "Cold: feels like −10°",
+   "tone": "warn",
+   "key": "cold2",
+   "P": 2,
+   "L": 2
+  },
+  {
+   "text": "Dry within the hour",
+   "tone": "info",
+   "key": "rain_end",
+   "P": 3,
+   "L": 1
+  }
+ ],
+ "rot": true,
+ "widgets": [
+  {
+   "k": "wind",
+   "name": "Wind",
+   "L": 0,
+   "val": "3",
+   "unit": "m/s",
+   "note": "gusts 6, west"
+  },
+  {
+   "k": "air",
+   "name": "Air",
+   "L": 0,
+   "val": "25",
+   "unit": "AQI",
+   "note": "good"
+  },
+  {
+   "k": "uv",
+   "name": "UV index",
+   "L": 0,
+   "val": "0",
+   "unit": "of 11",
+   "note": "up to 3 tomorrow"
+  },
+  {
+   "k": "pressure",
+   "name": "Pressure",
+   "L": 0,
+   "val": "1012",
+   "unit": "hPa",
+   "note": "no change"
+  },
+  {
+   "k": "radiation",
+   "name": "Radiation",
+   "L": 0,
+   "val": "0.12",
+   "unit": "µSv/h",
+   "note": "normal, 8 stations"
+  },
+  {
+   "k": "sun",
+   "name": "Sun",
+   "L": -1,
+   "val": "06:30",
+   "unit": "sunrise",
+   "note": "sunset 17:45"
+  }
+ ],
+ "rain": {
+  "cols": [
+   {
+    "h": "23",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "00",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "01",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "02",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "03",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "04",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "05",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "06",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "07",
+    "pp": 0,
+    "snow": 0
+   }
+  ],
+  "gray": false
+ },
+ "photo": {
+  "key": "snow-62fc",
+  "bg": "/ph/snow-62fc/bg.jpg",
+  "panel": "/ph/snow-62fc/panel.jpg",
+  "tone": "#16191c",
+  "next": [
+   {
+    "bg": "/ph/cloudy-night-49d9/bg.jpg",
+    "panel": "/ph/cloudy-night-49d9/panel.jpg"
+   }
+  ]
+ },
+ "fresh": {
+  "wx": {
+   "st": "ok",
+   "age": 300,
+   "fail": 0
+  },
+  "air": {
+   "st": "ok",
+   "age": 1800,
+   "fail": 0
+  },
+  "rad": {
+   "st": "ok",
+   "age": 3600,
+   "fail": 0,
+   "date": "2026-10-09"
+  },
+  "cam": {
+   "gate": {
+    "st": "ok",
+    "age": 1
+   },
+   "door": {
+    "st": "ok",
+    "age": 1
+   }
+  }
+ },
+ "attribution": "Weather: Open-Meteo.com · Air: CAMS · Radiation: Test network",
+ "_title": "scene snow-showers-night: Night snow showers"
+}

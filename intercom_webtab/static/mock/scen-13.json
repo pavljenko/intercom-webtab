@@ -1,0 +1,177 @@
+{
+ "v": 3,
+ "ts": 1794294000,
+ "now": {
+  "scene": "ice",
+  "day": 1,
+  "utci": -1,
+  "utciTxt": "−1°",
+  "word": "Frosty",
+  "L": 2,
+  "t": -1.0,
+  "tTxt": "−1°",
+  "stale": false,
+  "ahead": []
+ },
+ "status": [
+  {
+   "text": "Fog and black ice — mind the steps",
+   "tone": "warn",
+   "key": "fog_ice",
+   "P": 2,
+   "L": 2
+  },
+  {
+   "text": "Feels like −1° — dress warmly",
+   "tone": "warn",
+   "key": "cold2",
+   "P": 2,
+   "L": 2
+  },
+  {
+   "text": "Rain has stopped, dry ahead",
+   "tone": "info",
+   "key": "rain_over",
+   "P": 3,
+   "L": 1
+  }
+ ],
+ "rot": true,
+ "widgets": [
+  {
+   "k": "wind",
+   "name": "Wind",
+   "L": 0,
+   "val": "1",
+   "unit": "m/s",
+   "note": "gusts 2, west"
+  },
+  {
+   "k": "air",
+   "name": "Air",
+   "L": 0,
+   "val": "25",
+   "unit": "AQI",
+   "note": "good"
+  },
+  {
+   "k": "uv",
+   "name": "UV index",
+   "L": 0,
+   "val": "0",
+   "unit": "of 11",
+   "note": "up to 3 today"
+  },
+  {
+   "k": "pressure",
+   "name": "Pressure",
+   "L": 0,
+   "val": "1012",
+   "unit": "hPa",
+   "note": "no change"
+  },
+  {
+   "k": "radiation",
+   "name": "Radiation",
+   "L": 0,
+   "val": "0.12",
+   "unit": "µSv/h",
+   "note": "normal, 8 stations"
+  },
+  {
+   "k": "sun",
+   "name": "Sun",
+   "L": -1,
+   "val": "17:45",
+   "unit": "sunset",
+   "note": "sunrise 06:30"
+  }
+ ],
+ "rain": {
+  "cols": [
+   {
+    "h": "07",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "08",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "09",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "10",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "11",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "12",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "13",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "14",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "15",
+    "pp": 0,
+    "snow": 0
+   }
+  ],
+  "gray": false
+ },
+ "photo": {
+  "key": "ice-a3dd",
+  "bg": "/ph/ice-a3dd/bg.jpg",
+  "panel": "/ph/ice-a3dd/panel.jpg",
+  "tone": "#16191c",
+  "next": []
+ },
+ "fresh": {
+  "wx": {
+   "st": "ok",
+   "age": 300,
+   "fail": 0
+  },
+  "air": {
+   "st": "ok",
+   "age": 1800,
+   "fail": 0
+  },
+  "rad": {
+   "st": "ok",
+   "age": 3600,
+   "fail": 0,
+   "date": "2026-11-10"
+  },
+  "cam": {
+   "gate": {
+    "st": "ok",
+    "age": 1
+   },
+   "door": {
+    "st": "ok",
+    "age": 1
+   }
+  }
+ },
+ "attribution": "Weather: Open-Meteo.com · Air: CAMS · Radiation: Test network",
+ "_title": "13: fog and black ice, morning"
+}

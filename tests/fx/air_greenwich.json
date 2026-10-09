@@ -1,0 +1,38 @@
+{
+ "latitude": 51.5,
+ "longitude": 0.0,
+ "utc_offset_seconds": 3600,
+ "timezone": "Europe/London",
+ "timezone_abbreviation": "GMT+1",
+ "elevation": 33.0,
+ "current_units": {
+  "time": "unixtime",
+  "interval": "seconds",
+  "european_aqi": "EAQI",
+  "european_aqi_pm2_5": "EAQI",
+  "european_aqi_pm10": "EAQI",
+  "european_aqi_nitrogen_dioxide": "EAQI",
+  "european_aqi_ozone": "EAQI",
+  "pm2_5": "\u03bcg/m\u00b3",
+  "pm10": "\u03bcg/m\u00b3",
+  "ozone": "\u03bcg/m\u00b3",
+  "nitrogen_dioxide": "\u03bcg/m\u00b3",
+  "dust": "\u03bcg/m\u00b3",
+  "aerosol_optical_depth": ""
+ },
+ "current": {
+  "time": 1791565200,
+  "interval": 3600,
+  "european_aqi": 27,
+  "european_aqi_pm2_5": 16,
+  "european_aqi_pm10": 9,
+  "european_aqi_nitrogen_dioxide": 27,
+  "european_aqi_ozone": 18,
+  "pm2_5": 4.0,
+  "pm10": 7.0,
+  "ozone": 53.0,
+  "nitrogen_dioxide": 14.9,
+  "dust": 0.0,
+  "aerosol_optical_depth": 0.06
+ }
+}

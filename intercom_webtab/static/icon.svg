@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200mm" height="200mm" viewBox="0 0 566.929 566.929">
+  <metadata>
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#">
+      <cc:Work rdf:about="">
+        <dc:title>Intercom WebTab icon</dc:title>
+        <dc:creator><cc:Agent><dc:title>Sasha Pavljenko (pavljenko.ru)</dc:title></cc:Agent></dc:creator>
+        <dc:rights>CC BY-SA 4.0</dc:rights>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect x=".446" y=".446" width="566.038" height="566.038" fill="#00e1d7" stroke="#00e1d7" stroke-miterlimit="10" stroke-width="2.835"/>
+  <g>
+    <path d="M412.177,311.125c0,19.01-9.746,36.29-26.07,46.226-16.045,9.766-34.689,10.482-51.153,1.967-.383-.198-.771-.405-1.164-.62-15.792-8.671-25.443-25.429-25.619-43.444l-.227-14.153c0-14.279,11.575-34.851,25.854-34.851h0c0-27.798-22.535-50.332-50.332-50.332s-50.332,22.535-50.332,50.332h0c14.279,0,25.854,20.572,25.854,34.851l-.227,14.153c-.177,18.016-9.828,34.774-25.62,43.445-.392.215-.78.422-1.163.62-16.463,8.515-35.109,7.799-51.153-1.967-16.325-9.936-26.071-27.216-26.071-46.226v-44.876h-46.712v44.876c0,35.449,18.13,67.646,48.497,86.129,15.996,9.735,33.815,14.635,51.658,14.634,15.458,0,30.934-3.68,45.241-11.079,11.647-6.024,21.768-14.139,30.029-23.926,8.261,9.787,18.38,17.9,30.027,23.925,30.824,15.943,67.048,14.613,96.9-3.554,30.367-18.482,48.497-50.68,48.497-86.129v-44.876h-46.713v44.876Z" fill="#001432"/>
+    <circle cx="435.533" cy="197.578" r="42.536" fill="#001432"/>
+    <circle cx="131.396" cy="197.578" r="42.536" transform="translate(-29.952 23.599) rotate(-9.217)" fill="#001432"/>
+  </g>
+</svg>

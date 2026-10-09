@@ -1,0 +1,65 @@
+#!/usr/sbin/nft -f
+# Intercom WebTab firewall - rendered {RENDERED} by deploy/render.py from
+# deploy/firewall/intercom-webtab.nft.tmpl. Do not edit the rendered file: edit
+# /etc/intercom-webtab/allowlist.txt or sip_peers.txt and run deploy/firewall/apply.sh.
+#
+# Its own table, so the rest of the host firewall (SSH and so on) is left alone. The
+# table only accepts or drops traffic to the station's ports; everything not listed
+# below is decided by the host's other rules. Fail-closed: an empty list means
+# "localhost only" for that service.
+
+table inet intercom_webtab
+delete table inet intercom_webtab
+
+table inet intercom_webtab {
+	# SIP provider and door stations (sip_peers.txt + the [provider] host)
+	set sip_peers_v4 {
+		type ipv4_addr
+		flags interval
+		{SIP_PEERS_V4}
+	}
+	set sip_peers_v6 {
+		type ipv6_addr
+		flags interval
+		{SIP_PEERS_V6}
+	}
+	# who may open the page (allowlist.txt)
+	set http_allow_v4 {
+		type ipv4_addr
+		flags interval
+		{HTTP_ALLOW_V4}
+	}
+	set http_allow_v6 {
+		type ipv6_addr
+		flags interval
+		{HTTP_ALLOW_V6}
+	}
+
+	chain input {
+		type filter hook input priority -10; policy accept;
+		iif "lo" accept
+		ct state established,related accept
+
+		# SIP signalling of Asterisk: provider and door stations only (internet scanners
+		# probe port 5060 all day long)
+		udp dport {SIP_PORT} ip saddr @sip_peers_v4 accept
+		udp dport {SIP_PORT} ip6 saddr @sip_peers_v6 accept
+		udp dport {SIP_PORT} drop
+		tcp dport {SIP_PORT} drop
+
+		# RTP media of Asterisk (rtp.conf): the same peers
+		udp dport {RTP_START}-{RTP_END} ip saddr @sip_peers_v4 accept
+		udp dport {RTP_START}-{RTP_END} ip6 saddr @sip_peers_v6 accept
+		udp dport {RTP_START}-{RTP_END} drop
+
+		# the station's internal ports (SIP UAS, ffmpeg RTP, audio relay) and AMI:
+		# localhost only
+		udp dport { {INTERNAL_UDP} } drop
+		tcp dport {AMI_PORT} drop
+
+		# the page: the token travels in plain HTTP, so only allow-listed networks
+		tcp dport {HTTP_PORT} ip saddr @http_allow_v4 accept
+		tcp dport {HTTP_PORT} ip6 saddr @http_allow_v6 accept
+		tcp dport {HTTP_PORT} drop
+	}
+}

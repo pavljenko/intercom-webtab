@@ -1,0 +1,16 @@
+[Unit]
+Description=Intercom WebTab firewall (nftables table inet intercom_webtab)
+After=network-online.target nftables.service
+Wants=network-online.target
+# reload our table whenever the host firewall is reloaded (it may flush the ruleset)
+PartOf=nftables.service
+Before=asterisk.service intercom-webtab.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/opt/intercom-webtab/deploy/firewall/apply.sh
+ExecReload=/opt/intercom-webtab/deploy/firewall/apply.sh
+
+[Install]
+WantedBy=multi-user.target

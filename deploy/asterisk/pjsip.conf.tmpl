@@ -1,0 +1,138 @@
+; Intercom WebTab - PJSIP configuration
+; Rendered by deploy/render.py from deploy/asterisk/pjsip.conf.tmpl and webtab.ini /
+; secrets.ini. Edit the template or the config and render again; this file is replaced.
+;
+; Two ways door-panel calls reach this Asterisk (both can be mixed):
+;   A) a SIP provider: Asterisk registers with the provider, the panels call our number;
+;   B) an IP door station registers directly to this Asterisk as an endpoint.
+; Either way the call is sent to the "webtab" endpoint: the station's own SIP UAS.
+
+[global]
+type = global
+user_agent = Intercom WebTab
+endpoint_identifier_order = ip,username
+
+[transport-udp]
+type = transport
+protocol = udp
+bind = 0.0.0.0:5060
+; Behind NAT (a home router or a cloud VM), uncomment and fill in:
+;external_media_address = 203.0.113.10
+;external_signaling_address = 203.0.113.10
+;local_net = 192.168.0.0/16
+;local_net = 10.0.0.0/8
+
+; ---------------------------------------------------------------------------
+; The station itself: the SIP UAS inside intercom-webtab, localhost only.
+[webtab]
+type = endpoint
+transport = transport-udp
+context = intercom-none
+disallow = all
+allow = alaw,h264
+direct_media = no
+aors = webtab
+
+[webtab]
+type = aor
+contact = sip:webtab@{UAS_HOST}:{UAS_PORT}
+qualify_frequency = 30
+
+; The panel simulator (tools/panelsim.py --to asterisk, the page's demo call).
+; Requests from localhost land in the demo context: they never open a door.
+[local-sim]
+type = endpoint
+transport = transport-udp
+context = {DEMO_CONTEXT}
+disallow = all
+allow = alaw,h264
+direct_media = no
+
+[local-sim]
+type = identify
+endpoint = local-sim
+match = 127.0.0.1
+
+;; BEGIN provider
+; ---------------------------------------------------------------------------
+; Variant A: the SIP provider. The door panels call {OWN_NUMBER}; we call the panels
+; through this trunk to watch a camera or to send the door-opening digit.
+[{TRUNK}-reg]
+type = registration
+transport = transport-udp
+outbound_auth = {TRUNK}-auth
+server_uri = sip:{PROVIDER_HOST}:{PROVIDER_PORT}
+client_uri = sip:{PROVIDER_USER}@{PROVIDER_HOST}
+contact_user = {PROVIDER_USER}
+retry_interval = 60
+forbidden_retry_interval = 600
+expiration = 300
+line = yes
+endpoint = {TRUNK}
+
+[{TRUNK}-auth]
+type = auth
+auth_type = userpass
+username = {PROVIDER_AUTH_USER}
+password = {PROVIDER_PASSWORD}
+
+[{TRUNK}]
+type = aor
+contact = sip:{PROVIDER_HOST}:{PROVIDER_PORT}
+qualify_frequency = 60
+
+[{TRUNK}]
+type = endpoint
+transport = transport-udp
+context = {INCOMING_CONTEXT}
+disallow = all
+allow = alaw,ulaw,h264
+outbound_auth = {TRUNK}-auth
+aors = {TRUNK}
+from_user = {PROVIDER_USER}
+from_domain = {PROVIDER_HOST}
+direct_media = no
+rtp_symmetric = yes
+force_rport = yes
+rewrite_contact = yes
+; how the door-opening digit is sent; some panels need "info" or "inband"
+dtmf_mode = rfc4733
+
+[{TRUNK}-identify]
+type = identify
+endpoint = {TRUNK}
+match = {PROVIDER_HOST}
+;; END provider
+
+;; BEGIN station
+; ---------------------------------------------------------------------------
+; Variant B: door station "{PANEL_ID}" registers here as {PANEL_ENDPOINT}.
+; In the door station: SIP server = this machine, user {PANEL_ENDPOINT}, the password
+; from secrets.ini, and the number to call = {OWN_NUMBER}.
+[{PANEL_ENDPOINT}]
+type = endpoint
+transport = transport-udp
+context = {INCOMING_CONTEXT}
+disallow = all
+allow = alaw,ulaw,h264
+auth = {PANEL_ENDPOINT}-auth
+aors = {PANEL_ENDPOINT}
+callerid = "{PANEL_LABEL}" <{PANEL_NUMBER}>
+direct_media = no
+rtp_symmetric = yes
+force_rport = yes
+rewrite_contact = yes
+dtmf_mode = rfc4733
+
+[{PANEL_ENDPOINT}-auth]
+type = auth
+auth_type = userpass
+username = {PANEL_ENDPOINT}
+password = {PANEL_PASSWORD}
+
+[{PANEL_ENDPOINT}]
+type = aor
+max_contacts = 1
+remove_existing = yes
+qualify_frequency = 30
+;; END station

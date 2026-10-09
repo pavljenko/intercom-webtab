@@ -1,0 +1,163 @@
+{
+ "v": 3,
+ "ts": 1791583200,
+ "now": {
+  "scene": "clear-night",
+  "day": 0,
+  "utci": 11,
+  "utciTxt": "11°",
+  "word": "Fresh",
+  "L": 0,
+  "t": 15.0,
+  "tTxt": "15°",
+  "stale": false,
+  "ahead": []
+ },
+ "status": [
+  {
+   "text": "All calm: clean air, normal radiation",
+   "tone": "calm",
+   "key": "calm",
+   "P": 5,
+   "L": 0
+  }
+ ],
+ "rot": false,
+ "widgets": [
+  {
+   "k": "wind",
+   "name": "Wind",
+   "L": 0,
+   "val": "3",
+   "unit": "m/s",
+   "note": "gusts 6, west"
+  },
+  {
+   "k": "air",
+   "name": "Air",
+   "L": 0,
+   "val": "25",
+   "unit": "AQI",
+   "note": "good"
+  },
+  {
+   "k": "uv",
+   "name": "UV index",
+   "L": 0,
+   "val": "0",
+   "unit": "of 11",
+   "note": "up to 3 tomorrow"
+  },
+  {
+   "k": "pressure",
+   "name": "Pressure",
+   "L": 0,
+   "val": "1012",
+   "unit": "hPa",
+   "note": "no change"
+  },
+  {
+   "k": "radiation",
+   "name": "Radiation",
+   "L": 0,
+   "val": "0.12",
+   "unit": "µSv/h",
+   "note": "normal, 8 stations"
+  },
+  {
+   "k": "sun",
+   "name": "Sun",
+   "L": -1,
+   "val": "06:30",
+   "unit": "sunrise",
+   "note": "sunset 17:45"
+  }
+ ],
+ "rain": {
+  "cols": [
+   {
+    "h": "23",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "00",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "01",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "02",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "03",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "04",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "05",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "06",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "07",
+    "pp": 0,
+    "snow": 0
+   }
+  ],
+  "gray": false
+ },
+ "photo": {
+  "key": "clear-night-2b70",
+  "bg": "/ph/clear-night-2b70/bg.jpg",
+  "panel": "/ph/clear-night-2b70/panel.jpg",
+  "tone": "#16191c",
+  "next": []
+ },
+ "fresh": {
+  "wx": {
+   "st": "ok",
+   "age": 300,
+   "fail": 0
+  },
+  "air": {
+   "st": "ok",
+   "age": 1800,
+   "fail": 0
+  },
+  "rad": {
+   "st": "ok",
+   "age": 3600,
+   "fail": 0,
+   "date": "2026-10-09"
+  },
+  "cam": {
+   "gate": {
+    "st": "ok",
+    "age": 1
+   },
+   "door": {
+    "st": "ok",
+    "age": 1
+   }
+  }
+ },
+ "attribution": "Weather: Open-Meteo.com · Air: CAMS · Radiation: Test network",
+ "_title": "scene clear-night: Clear night"
+}

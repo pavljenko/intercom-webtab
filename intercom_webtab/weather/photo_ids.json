@@ -1,0 +1,766 @@
+{
+ "clear": [
+  {
+   "id": "41d347ec-860c-4b6b-bf6c-c8d53f790a5f",
+   "source": "stocksnap",
+   "title": "Sky Landscape",
+   "creator": "Sergei Gussev",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/MZ11AZ4J3Z.jpg"
+  },
+  {
+   "id": "0b2bd03c-6ae8-417a-9627-365347ec1e75",
+   "source": "stocksnap",
+   "title": "Beautiful Landscape",
+   "creator": "Ghost Presenter",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/970HTFRR9U.jpg"
+  },
+  {
+   "id": "46384bc8-9ace-4eea-bc7e-bde08869a3ab",
+   "source": "wordpress",
+   "title": "A clear sky with trees and the moon",
+   "creator": "wise1uk",
+   "license": "cc0",
+   "url": "https://pd.w.org/2022/02/93961feaeda676690.65026340-2048x1536.jpeg"
+  },
+  {
+   "id": "e00f9bf6-2956-4440-ba91-cae919491444",
+   "source": "wordpress",
+   "title": "Wide view of a deep blue ocean under a clear sky, with a distant green coastline, small clouds on the horizon, and calm rippling water on a sunny day.",
+   "creator": "Faisal Ahammad",
+   "license": "cc0",
+   "url": "https://pd.w.org/2026/04/28169d9d8ca72b769.14999789-2048x1152.jpeg"
+  },
+  {
+   "id": "eb8c712e-5545-4b01-b801-ae2769d403cf",
+   "source": "flickr",
+   "title": "20220404_114602",
+   "creator": "MaxwellFury",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/65535/52017635989_a833e36961_b.jpg"
+  }
+ ],
+ "clear-night": [
+  {
+   "id": "d1170d61-cf62-4aa4-8b49-cb03f416e1a8",
+   "source": "stocksnap",
+   "title": "Night Tree",
+   "creator": "Free Nature Stock",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/DSOUXZLKJ8.jpg"
+  },
+  {
+   "id": "3f2be74e-4dff-49ec-8b09-06b5e1d5bf0a",
+   "source": "stocksnap",
+   "title": "Tree Night",
+   "creator": "Free Nature Stock",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/APX7UXLA57.jpg"
+  },
+  {
+   "id": "8882ee63-34f2-46b0-8f55-739df41a5c76",
+   "source": "stocksnap",
+   "title": "Tree Night",
+   "creator": "Free Nature Stock",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/KODL4VKCFR.jpg"
+  },
+  {
+   "id": "64020d6c-48a6-40b1-a600-dd66530e9097",
+   "source": "stocksnap",
+   "title": "Tree Night",
+   "creator": "Free Nature Stock",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/JO6K51KINA.jpg"
+  },
+  {
+   "id": "4cbaf49a-2c3a-4c6d-a10c-3c090ab460ae",
+   "source": "stocksnap",
+   "title": "Night Star",
+   "creator": "Stephen Rahn",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/4YNWG9ERKE.jpg"
+  }
+ ],
+ "cloudy-day": [
+  {
+   "id": "3ff7848a-68e6-4ba0-b91e-1171b1d5d6c9",
+   "source": "wordpress",
+   "title": "White, fluffy clouds in a blue sky",
+   "creator": "Nilo Velez",
+   "license": "cc0",
+   "url": "https://pd.w.org/2024/02/73665c56dad9e7769.85479795-2048x1365.jpg"
+  },
+  {
+   "id": "8b9f4d2e-468f-4348-aca9-5eac043e6516",
+   "source": "wordpress",
+   "title": "A bright blue sky filled with scattered, fluffy white clouds.",
+   "creator": "creativemz",
+   "license": "cc0",
+   "url": "https://pd.w.org/2024/06/65966600b478124d1.86438439-2048x1365.jpg"
+  },
+  {
+   "id": "b2ac608f-8526-41d7-a070-9aa212edbd34",
+   "source": "wordpress",
+   "title": "A clear blue sky with scattered fluffy white clouds.",
+   "creator": "Deepak Rajpal",
+   "license": "cc0",
+   "url": "https://pd.w.org/2024/12/624675bd79c55e1a0.55602706-2048x1536.jpg"
+  },
+  {
+   "id": "38b14d0e-2b0d-46cc-8f78-8e954d4b475d",
+   "source": "flickr",
+   "title": "Free Sky Background",
+   "creator": "shaire productions",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/682/21174773449_6e0eca6f38_b.jpg"
+  },
+  {
+   "id": "24aa6dd6-4df6-4fab-b310-a148fae8bbe3",
+   "source": "flickr",
+   "title": "White Fluffy Clouds",
+   "creator": "Image Catalog",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/5749/22454323610_deccb472e6_b.jpg"
+  }
+ ],
+ "cloudy-night": [
+  {
+   "id": "c9b19424-4f61-435a-9810-97b00d1d2726",
+   "source": "stocksnap",
+   "title": "Dark Night",
+   "creator": "Matthew Kane",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/9NL8YITKGJ.jpg"
+  },
+  {
+   "id": "477d4bda-8544-4004-9ff0-004589d99edb",
+   "source": "stocksnap",
+   "title": "Dark Night",
+   "creator": "Joonas kääriäinen",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/R4VN4FPRYJ.jpg"
+  },
+  {
+   "id": "3f108423-223f-459b-9442-c9b988e9894d",
+   "source": "stocksnap",
+   "title": "Moon Dark",
+   "creator": "Jason Blackeye",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/EVE2CYUVDL.jpg"
+  },
+  {
+   "id": "d15a810a-b3bb-4adc-b5fd-7c47ec03f987",
+   "source": "stocksnap",
+   "title": "Moon Night",
+   "creator": "Jeffrey Betts",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/823A99E01E.jpg"
+  },
+  {
+   "id": "5d31ea08-0cd7-4341-841d-0437466aab19",
+   "source": "wordpress",
+   "title": "Night Moon",
+   "creator": "Ravi Gadhiya",
+   "license": "cc0",
+   "url": "https://pd.w.org/2022/11/53636d220522bf80.66391541-2048x1152.jpg"
+  }
+ ],
+ "overcast-warm": [
+  {
+   "id": "e941d3ef-ee5f-426d-aa2b-9c74af0abdd6",
+   "source": "wordpress",
+   "title": "Polder landscape with meadows, trees, bushes in bloom, fencing and a dark blue overcast sky with according flying by",
+   "creator": "Rámon van Raaij",
+   "license": "cc0",
+   "url": "https://pd.w.org/2024/05/552663379700fb1a0.72324679-2048x1365.jpeg"
+  },
+  {
+   "id": "b43ae52d-8cbc-41d0-870e-b0cd47190e01",
+   "source": "stocksnap",
+   "title": "Sky Landscape",
+   "creator": "Sergei Gussev",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/AKDHQFSEPG.jpg"
+  },
+  {
+   "id": "d09fe632-a3a9-4414-9e07-f450046bbff2",
+   "source": "wordpress",
+   "title": "A dark, cloudy sky seems like rainfall is about to begin, with some branches of trees showing leaves on one edge of the picture.",
+   "creator": "namyalo",
+   "license": "cc0",
+   "url": "https://pd.w.org/2025/10/55468f0ca3711aff4.80138873-2048x1536.jpg"
+  },
+  {
+   "id": "0177edcf-c333-49ec-a88b-897fece6c51c",
+   "source": "flickr",
+   "title": "Overcast Sky in Corpus Christi—Hurricane Beryl",
+   "creator": "jonmcabrera",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/65535/53842550639_7e20540578_b.jpg"
+  },
+  {
+   "id": "b847a6ec-9b09-4727-a789-99aa18dfd352",
+   "source": "flickr",
+   "title": "Tree",
+   "creator": "freestocks.org",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/5769/30528013106_7fcc4bdca0_b.jpg"
+  }
+ ],
+ "overcast-winter": [
+  {
+   "id": "854af177-dab1-439a-8bba-b135f2a312bd",
+   "source": "stocksnap",
+   "title": "Winter Snow",
+   "creator": "Mary",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/3JSXM0IBQY.jpg"
+  },
+  {
+   "id": "c8592137-8c49-4b2b-ab51-1e84fa8b2ea6",
+   "source": "stocksnap",
+   "title": "Winter Snow",
+   "creator": "Mary",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/DDP25FECQG.jpg"
+  },
+  {
+   "id": "9cd69af6-1eab-4482-83d3-59500a0cfbb5",
+   "source": "stocksnap",
+   "title": "Snow Field",
+   "creator": "Bonnie Moreland",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/KHQM0LOE1B.jpg"
+  },
+  {
+   "id": "02518108-425f-47cb-850b-24d7e47c0868",
+   "source": "stocksnap",
+   "title": "Snow Winter",
+   "creator": "Patrick Hendry",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/KSZ5GDZ046.jpg"
+  },
+  {
+   "id": "d008192c-6944-429a-a40f-f8f9664537d9",
+   "source": "stocksnap",
+   "title": "Frozen Lake",
+   "creator": "JJ Skys the Limit",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/DL6VVU5NSY.jpg"
+  }
+ ],
+ "fog": [
+  {
+   "id": "ffc6dd3b-7e85-4e97-9015-18c68b3fe6ae",
+   "source": "wordpress",
+   "title": "Haystacks scattered across a foggy field with slight hills breaking up the scene.",
+   "creator": "annezazu",
+   "license": "cc0",
+   "url": "https://pd.w.org/2023/07/91564a88f805ce621.15991490-2048x1366.jpg"
+  },
+  {
+   "id": "e1855d86-881e-4b9a-aac5-d2c629eed186",
+   "source": "wordpress",
+   "title": "A field with trees partly obscured by morning mist.",
+   "creator": "Topher",
+   "license": "cc0",
+   "url": "https://pd.w.org/2025/09/46068da8be7476402.87681186-2048x1152.jpeg"
+  },
+  {
+   "id": "8ced9991-0358-4e73-89db-b25c2e7b7463",
+   "source": "stocksnap",
+   "title": "Fog Mist",
+   "creator": "Snapwire",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/ZEBGIJALDT.jpg"
+  },
+  {
+   "id": "d9eb37d1-01f0-483c-b483-e8ebe6463abe",
+   "source": "stocksnap",
+   "title": "Trees Forest",
+   "creator": "Teddy Kelley",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/JWSB3QDJEW.jpg"
+  },
+  {
+   "id": "99b2e668-1316-43d0-928f-8e9a5aef6bab",
+   "source": "stocksnap",
+   "title": "Dirt Road",
+   "creator": "Bara Cross",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/IRMMWF0933.jpg"
+  }
+ ],
+ "rain": [
+  {
+   "id": "48003ea1-2c0f-4a43-b26e-0cd0cc25181c",
+   "source": "stocksnap",
+   "title": "Tinted Glass",
+   "creator": "lydia harper",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/XBV0MWM42E.jpg"
+  },
+  {
+   "id": "8911fc2e-4d02-4fe4-8612-beb699f4eeb4",
+   "source": "stocksnap",
+   "title": "Rain Drops",
+   "creator": "AJ Montpetit",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/A3GM7T9ZDV.jpg"
+  },
+  {
+   "id": "9dba6965-e640-4d3b-bbe5-95506dbcf5be",
+   "source": "stocksnap",
+   "title": "Wet Glass",
+   "creator": "Noah Silliman",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/59GARETP8W.jpg"
+  },
+  {
+   "id": "4b017aef-395c-4070-9902-2f7124c5f342",
+   "source": "wordpress",
+   "title": "A close-up view of a window covered in raindrops, with a soft focus.",
+   "creator": "Guste Cibulskyte",
+   "license": "cc0",
+   "url": "https://pd.w.org/2025/08/34268ae38d79a1b28.71461728-2048x1365.jpg"
+  },
+  {
+   "id": "c43990c5-f222-45c0-a5b5-c90fbc101999",
+   "source": "wordpress",
+   "title": "Rain drops on window glass.",
+   "creator": "RM Shiblee Mehdi",
+   "license": "cc0",
+   "url": "https://pd.w.org/2022/08/97463046a5dcb0f47.48632293-2048x996.jpg"
+  }
+ ],
+ "downpour": [
+  {
+   "id": "5dd8f9da-97cf-4c9d-ac08-1b95630196ed",
+   "source": "stocksnap",
+   "title": "Raining Raindrops",
+   "creator": "Rowan Heuvel",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/AWI4TCQWK3.jpg"
+  },
+  {
+   "id": "42782451-7690-4c93-9f94-5adc63a72e18",
+   "source": "flickr",
+   "title": "Summer rain in Brastad 1",
+   "creator": "AnnSophieQ",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/65535/51458421636_179ce04179_b.jpg"
+  },
+  {
+   "id": "d11b82fc-368a-4441-a002-6b230512045c",
+   "source": "flickr",
+   "title": "Rain splashes on rooftop 4",
+   "creator": "AnnSophieQ",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/65535/54393720632_a68affcf1b_b.jpg"
+  },
+  {
+   "id": "5b143c33-868e-49ae-ac54-d81d5b5edd77",
+   "source": "wordpress",
+   "title": "Rain pours down from a cloudburst over a lake. Mountains in the background.",
+   "creator": "nithinjohn",
+   "license": "cc0",
+   "url": "https://pd.w.org/2024/02/12965bdd533884565.37777182-2048x1536.jpeg"
+  },
+  {
+   "id": "66c5e368-a501-479b-9536-286cf1432e0f",
+   "source": "flickr",
+   "title": "The rain falls hard on a humdrum town -0001-vancouver-gastown-xe2-zeiss35-2-20151028-DSCF7837.jpg",
+   "creator": "roland",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/5830/21940890764_79aca8f931_b.jpg"
+  }
+ ],
+ "storm": [
+  {
+   "id": "d9650cfc-3d8f-4fb9-b0a0-64fdf3415a0c",
+   "source": "stocksnap",
+   "title": "Lightning Storm",
+   "creator": "Brandon Morgan",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/3EPA01FY99.jpg"
+  },
+  {
+   "id": "b72b5e48-1d74-4d4d-a649-380eba52c522",
+   "source": "stocksnap",
+   "title": "Lightning Tornado",
+   "creator": "Lucy Chian",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/9WTNHBFJUX.jpg"
+  },
+  {
+   "id": "b3c429df-719a-4431-836c-76b28ab3e319",
+   "source": "stocksnap",
+   "title": "Lightning Thunder",
+   "creator": "Breno Machado",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/XM2BU5FAKM.jpg"
+  },
+  {
+   "id": "7ca5212e-c301-46d4-9264-eda2b588073a",
+   "source": "stocksnap",
+   "title": "Lightning Dark",
+   "creator": "Jeremy Thomas",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/RA511YV9UA.jpg"
+  },
+  {
+   "id": "c04b7393-20e9-4055-a686-3b5d6d0efedd",
+   "source": "stocksnap",
+   "title": "Lightning Storm",
+   "creator": "Skitter Photo",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/Y9HHFJBM33.jpg"
+  }
+ ],
+ "snow": [
+  {
+   "id": "ed07a86d-ddca-4391-b83b-97a4d389ee32",
+   "source": "flickr",
+   "title": "Falling Snow 4",
+   "creator": "quachdaitrieu",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/694/31506897830_15d82d8940_b.jpg"
+  },
+  {
+   "id": "7ca51267-7137-459c-8fd1-2db8ce2e28bd",
+   "source": "flickr",
+   "title": "Spruce trees in falling snow",
+   "creator": "USFWSAlaska",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/65535/52827884596_f689081094_b.jpg"
+  },
+  {
+   "id": "c3c35a56-39e1-4a56-b457-7acb0fe5028f",
+   "source": "flickr",
+   "title": "Street Light",
+   "creator": "megforce1",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/1565/26467565902_5cf6f82822_b.jpg"
+  },
+  {
+   "id": "752821cf-6dde-4991-b868-3c94d25df56c",
+   "source": "flickr",
+   "title": "Snowfall at Canyon",
+   "creator": "YellowstoneNPS",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/3777/11455183745_cb4af337ae_b.jpg"
+  },
+  {
+   "id": "19a34b59-b81e-42bd-84b3-52d90fc4a8f6",
+   "source": "flickr",
+   "title": "Heavy Snow in the Back",
+   "creator": "cogdogblog",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/3471/3268564680_97a160533f_b.jpg"
+  }
+ ],
+ "blizzard": [
+  {
+   "id": "ba8cceb3-64ca-4c40-97dd-7006e101ee87",
+   "source": "stocksnap",
+   "title": "Winter Forest",
+   "creator": "Ryan Pohanic",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/2C1MRCDUXL.jpg"
+  },
+  {
+   "id": "6a6b315c-7d36-4c01-86c1-a7902b4e7748",
+   "source": "flickr",
+   "title": "March blizzard",
+   "creator": "Staropramen1969",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/3781/33311281780_986c4e276f_b.jpg"
+  },
+  {
+   "id": "db46ba94-804f-4bd5-964f-2954bc40bb59",
+   "source": "wordpress",
+   "title": "Snow squalls",
+   "creator": "Courtney Robertson",
+   "license": "cc0",
+   "url": "https://pd.w.org/2022/04/2796267ffef7f3652.59029728-2048x1365.jpeg"
+  },
+  {
+   "id": "9c215196-7981-4708-b386-65ccd5401bf7",
+   "source": "flickr",
+   "title": "Blizzard at Lewis Lake",
+   "creator": "YellowstoneNPS",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/4791/38904862970_ac06037495_b.jpg"
+  },
+  {
+   "id": "40dbd6fd-d17e-456b-8dc6-8eeb2efcb355",
+   "source": "flickr",
+   "title": "Spruce trees in blowing snow",
+   "creator": "USFWSAlaska",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/65535/52827893256_1044e36964_b.jpg"
+  }
+ ],
+ "ice": [
+  {
+   "id": "5fa16562-235f-406f-9e9c-75009ecfea24",
+   "source": "flickr",
+   "title": "Hocking County ice storm",
+   "creator": "dankeck",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/4694/40168600101_49292d87ef_b.jpg"
+  },
+  {
+   "id": "cb20f0cf-97ac-41ce-a497-4e6e032be121",
+   "source": "flickr",
+   "title": "Let's Go!",
+   "creator": "mpardo.photo",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/7881/33164842988_02dddf7121_b.jpg"
+  },
+  {
+   "id": "e7b581bc-639c-4e38-93a1-5dceeae89d1b",
+   "source": "flickr",
+   "title": "Toronto icestorm acorn",
+   "creator": "boitchy",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/4625/25252056817_37791bc7fe_b.jpg"
+  },
+  {
+   "id": "527e3977-0d55-4374-9aae-fee785c90659",
+   "source": "flickr",
+   "title": "Ice Storm Damage",
+   "creator": "ShenandoahNPS",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/4823/46029402952_79fecfaf26_b.jpg"
+  },
+  {
+   "id": "0b7a4370-3eb9-40e6-ab19-b27414da1e5b",
+   "source": "wordpress",
+   "title": "Frozen branches",
+   "creator": "Joe Fusco",
+   "license": "cc0",
+   "url": "https://pd.w.org/2023/02/35963f7bd75022d33.66698531-2048x1536.jpg"
+  }
+ ],
+ "frost": [
+  {
+   "id": "236d1daf-dd13-4be9-beb2-c897646b0c08",
+   "source": "flickr",
+   "title": "Project 365 #8: 080110 What a Pane!",
+   "creator": "comedy_nose",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/2733/4256533627_39221e92db_b.jpg"
+  },
+  {
+   "id": "9a51551d-d640-4f29-94a7-ffe4ae83b995",
+   "source": "flickr",
+   "title": "Sun Dog Through Frosted window",
+   "creator": "cogdogblog",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/65535/52595352732_605d216e77_b.jpg"
+  },
+  {
+   "id": "2ceafa71-93a0-4292-9cdd-4ff821fa9ef7",
+   "source": "wordpress",
+   "title": "Frozen window",
+   "creator": "Vladimir Simović",
+   "license": "cc0",
+   "url": "https://pd.w.org/2022/09/7726318c0c69eca89.09807577-2048x1536-jpg.webp"
+  },
+  {
+   "id": "bbbdfae9-7ce2-4513-9a9f-e5fdc8202a75",
+   "source": "flickr",
+   "title": "frost pattern day",
+   "creator": "ani!",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/22/89012491_68feb6a5c3_b.jpg"
+  },
+  {
+   "id": "ca9319e1-220f-4e2b-ab01-3bc3fdfb6192",
+   "source": "flickr",
+   "title": "Hoarfrost near Lost Creek Falls (2)",
+   "creator": "YellowstoneNPS",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/65535/52653301348_6afef2e13e_b.jpg"
+  }
+ ],
+ "haze": [
+  {
+   "id": "f7febb40-a4ec-493d-b94b-ea312c1fe32c",
+   "source": "stocksnap",
+   "title": "Sunrise Morning",
+   "creator": "Krzysztof Puszczy\u0144ski",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/FIOJB60WHW.jpg"
+  },
+  {
+   "id": "b5df1a2a-f52b-41cf-811e-b374aaf2f548",
+   "source": "stocksnap",
+   "title": "City Hongkong",
+   "creator": "Burst",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/LR9FDXG1SK.jpg"
+  },
+  {
+   "id": "f6d8e6ea-b187-429a-92a4-c0965525239d",
+   "source": "stocksnap",
+   "title": "Surnrise Dawn",
+   "creator": "Krzysztof Puszczy\u0144ski",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/14EF4WWS8K.jpg"
+  },
+  {
+   "id": "270c4ca5-c2fe-4fc1-bb63-1ee9fcef8abe",
+   "source": "flickr",
+   "title": "Dust storm. NRCSDC14051",
+   "creator": "exit78",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/8313/29110143521_863ed6638d_b.jpg"
+  },
+  {
+   "id": "686c63fd-3ff3-44bb-810e-9af2f91bb8e4",
+   "source": "flickr",
+   "title": "The Saharan dust cloud made for an interesting sunset on 6-26-2020.",
+   "creator": "StephenGA",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/65535/50049378747_42b6e32205_b.jpg"
+  },
+  {
+   "id": "856dfcca-340b-4cbb-bb14-b0ddbd214d81",
+   "source": "wordpress",
+   "title": "A serene landscape featuring a green field under a hazy sky with the sun setting in the background. A paved road runs alongside the field, leading toward the horizon where a row of trees is visible.",
+   "creator": "Md Khorshed Alam",
+   "license": "cc0",
+   "url": "https://pd.w.org/2024/10/9156720d2dd5c6d51.70966520-2048x1153.jpg"
+  }
+ ],
+ "smoke": [
+  {
+   "id": "8c5c2cc5-0adb-402f-b8b0-e47bba125948",
+   "source": "flickr",
+   "title": "Druid Complex",
+   "creator": "YellowstoneNPS",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/7311/9570772331_9b8730fefc_b.jpg"
+  },
+  {
+   "id": "054729ed-c72c-4d23-8bb2-603dbb430ac9",
+   "source": "flickr",
+   "title": "Druid Complex",
+   "creator": "YellowstoneNPS",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/2891/9573568730_8c5537e853_b.jpg"
+  },
+  {
+   "id": "14938228-237a-47a6-9f41-dd2beadefe27",
+   "source": "flickr",
+   "title": "Smoke front on Dismal Swamp",
+   "creator": "U. S. Fish and Wildlife Service - Northeast Region",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/6194/6044720127_8b72bcc4dc_b.jpg"
+  },
+  {
+   "id": "dc2e5a42-e7cd-4a17-a3c5-f8e6eb586d91",
+   "source": "flickr",
+   "title": "VIEW FROM THE HOUSE - 0153c (6-5-11) wildfire smoke",
+   "creator": "Sloalan",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/3248/5804984269_39aa669961_b.jpg"
+  },
+  {
+   "id": "4b91abe8-920f-4c4e-98ac-b7cf44f3d8d3",
+   "source": "flickr",
+   "title": "After several clear days the forest fire smoke from British Columbia has returned",
+   "creator": "Larry He's So Fine",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/4360/36096780714_3238b52aa2_b.jpg"
+  }
+ ],
+ "heat": [
+  {
+   "id": "88448525-a96f-4255-97bc-cd402d5c887a",
+   "source": "flickr",
+   "title": "Nice Filaprom on today's Sun",
+   "creator": "upsidedown astronomer",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/4729/39082004671_f53de9f432_b.jpg"
+  },
+  {
+   "id": "90f1d3ce-faee-4eba-8104-295ab9836662",
+   "source": "flickr",
+   "title": "The active part of today's Sun",
+   "creator": "upsidedown astronomer",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/4557/38748948632_21cce01566_b.jpg"
+  },
+  {
+   "id": "e522eb98-9200-4156-8f67-eb8cc0691472",
+   "source": "flickr",
+   "title": "Active region 2674 on today's Sun",
+   "creator": "upsidedown astronomer",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/4344/36971765235_e8bfe3935c_b.jpg"
+  },
+  {
+   "id": "8452d945-1c37-4dbe-92dc-29264841e44d",
+   "source": "flickr",
+   "title": "Released to Public: Hinide Looks at Sun's Chromosphere (JAXA/NASA)",
+   "creator": "pingnews.com",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/87/433794051_91c725d44b_b.jpg"
+  },
+  {
+   "id": "ce1afeaa-ab99-47da-9d6d-2b2a78da6a1c",
+   "source": "flickr",
+   "title": "Nice filaprom on today's Sun",
+   "creator": "upsidedown astronomer",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/4260/34676026884_01a3a28962_b.jpg"
+  }
+ ],
+ "wind": [
+  {
+   "id": "30615b7f-b42c-4abd-a3d0-eb4406bafc65",
+   "source": "flickr",
+   "title": "Storm on Lake Erie",
+   "creator": "plum.fisheries",
+   "license": "cc0",
+   "url": "https://live.staticflickr.com/65535/52975397420_9a4428841a_b.jpg"
+  },
+  {
+   "id": "8298db7e-2724-4d49-9965-75f8212ea1fd",
+   "source": "flickr",
+   "title": "Breaking waves, winter storm, Oregon Coast",
+   "creator": "Bonnie Moreland (free images)",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/4640/27794888929_8994060271_b.jpg"
+  },
+  {
+   "id": "a3c14817-8411-4d06-ad1c-1032efbc610d",
+   "source": "stocksnap",
+   "title": "Falling Autumn",
+   "creator": "Altered Reality",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/4Y9AWZZSIB.jpg"
+  },
+  {
+   "id": "e612783f-5e8e-42ce-8465-00fc0f3fa29b",
+   "source": "stocksnap",
+   "title": "Sea Ireland",
+   "creator": "Louise Hill",
+   "license": "cc0",
+   "url": "https://cdn.stocksnap.io/img-thumbs/960w/GHFIY7NMPX.jpg"
+  },
+  {
+   "id": "5d0d93e2-df41-466d-a782-c6d7ca4bee8f",
+   "source": "flickr",
+   "title": "vendaval",
+   "creator": "imposible?",
+   "license": "pdm",
+   "url": "https://live.staticflickr.com/8269/9026141364_9af3779939_b.jpg"
+  }
+ ]
+}

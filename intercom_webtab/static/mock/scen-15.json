@@ -1,0 +1,177 @@
+{
+ "v": 3,
+ "ts": 1791547200,
+ "now": {
+  "scene": "wind",
+  "day": 1,
+  "utci": 10,
+  "utciTxt": "10°",
+  "word": "Fresh",
+  "L": 0,
+  "t": 17.0,
+  "tTxt": "17°",
+  "stale": false,
+  "ahead": []
+ },
+ "status": [
+  {
+   "text": "Radiation above usual: 0.45 µSv/h",
+   "tone": "warn",
+   "key": "rad2",
+   "P": 2,
+   "L": 2
+  },
+  {
+   "text": "Polluted air — better keep windows shut",
+   "tone": "warn",
+   "key": "air2",
+   "P": 2,
+   "L": 2
+  },
+  {
+   "text": "Strong wind: gusts up to 16 m/s",
+   "tone": "warn",
+   "key": "wind2",
+   "P": 2,
+   "L": 2
+  }
+ ],
+ "rot": true,
+ "widgets": [
+  {
+   "k": "wind",
+   "name": "Wind",
+   "L": 2,
+   "val": "8",
+   "unit": "m/s",
+   "note": "gusts 16, west"
+  },
+  {
+   "k": "air",
+   "name": "Air",
+   "L": 2,
+   "val": "65",
+   "unit": "AQI",
+   "note": "PM2.5 elevated"
+  },
+  {
+   "k": "uv",
+   "name": "UV index",
+   "L": 2,
+   "val": "7",
+   "unit": "of 11",
+   "note": "up to 7 today"
+  },
+  {
+   "k": "pressure",
+   "name": "Pressure",
+   "L": 2,
+   "val": "1007",
+   "unit": "hPa",
+   "note": "+9 in 24 h"
+  },
+  {
+   "k": "radiation",
+   "name": "Radiation",
+   "L": 2,
+   "val": "0.45",
+   "unit": "µSv/h",
+   "note": "2 of 8 stations"
+  },
+  {
+   "k": "sun",
+   "name": "Sun",
+   "L": -1,
+   "val": "17:45",
+   "unit": "sunset",
+   "note": "sunrise 06:30"
+  }
+ ],
+ "rain": {
+  "cols": [
+   {
+    "h": "13",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "14",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "15",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "16",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "17",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "18",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "19",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "20",
+    "pp": 0,
+    "snow": 0
+   },
+   {
+    "h": "21",
+    "pp": 0,
+    "snow": 0
+   }
+  ],
+  "gray": false
+ },
+ "photo": {
+  "key": "wind-776b",
+  "bg": "/ph/wind-776b/bg.jpg",
+  "panel": "/ph/wind-776b/panel.jpg",
+  "tone": "#16191c",
+  "next": []
+ },
+ "fresh": {
+  "wx": {
+   "st": "ok",
+   "age": 300,
+   "fail": 0
+  },
+  "air": {
+   "st": "ok",
+   "age": 1800,
+   "fail": 0
+  },
+  "rad": {
+   "st": "ok",
+   "age": 3600,
+   "fail": 0,
+   "date": "2026-10-09"
+  },
+  "cam": {
+   "gate": {
+    "st": "ok",
+    "age": 1
+   },
+   "door": {
+    "st": "ok",
+    "age": 1
+   }
+  }
+ },
+ "attribution": "Weather: Open-Meteo.com · Air: CAMS · Radiation: Test network",
+ "_title": "15: everything at level 2"
+}

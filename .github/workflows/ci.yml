@@ -1,0 +1,115 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp pillow
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests
+
+      - name: End-to-end test (fake AMI, panel simulator)
+        run: python tools/e2e.py
+        env:
+          IWT_E2E_NO_CHROME: "1"
+
+  page:
+    name: Page (ES5) and leak check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Leak check (no private denylist in CI)
+        run: python tools/leakcheck.py
+
+      - name: Extract the page scripts
+        run: |
+          mkdir -p "$RUNNER_TEMP/es5"
+          python - "$RUNNER_TEMP/es5" <<'PY'
+          import os, re, shutil, sys
+          out = sys.argv[1]
+          static = os.path.join("intercom_webtab", "static")
+          html = open(os.path.join(static, "index.html"), encoding="utf-8").read()
+          bodies = []
+          for attrs, body in re.findall(r"<script([^>]*)>(.*?)</script>", html, re.S):
+              m = re.search(r'type="([^"]+)"', attrs)
+              if not m or m.group(1) in ("text/javascript", "application/javascript"):
+                  bodies.append(body)
+          for i, body in enumerate(bodies):
+              with open(os.path.join(out, "page_%d.js" % i), "w", encoding="utf-8") as f:
+                  f.write(body)
+          with open(os.path.join(out, "page_all.js"), "w", encoding="utf-8") as f:
+              f.write("\n;\n".join(bodies))
+          shutil.copy(os.path.join(static, "dots.js"), os.path.join(out, "dots.js"))
+          print("extracted %d scripts" % len(bodies))
+          PY
+
+      - name: ES5 syntax (acorn --ecma5)
+        working-directory: ${{ runner.temp }}/es5
+        run: |
+          for f in page_*.js dots.js; do
+            [ "$f" = page_all.js ] && continue
+            echo "acorn --ecma5 $f"
+            npx -y acorn@8.11.3 --ecma5 --silent "$f"
+          done
+
+      - name: No undefined globals (eslint no-undef)
+        working-directory: ${{ runner.temp }}/es5
+        run: >
+          npx -y eslint@8.57.0 --no-eslintrc --env browser
+          --parser-options=ecmaVersion:5 --rule "no-undef:error" page_all.js
+
+  gitleaks:
+    name: gitleaks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: write   # lets the action comment on leaking lines of a pull request
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Only needed for repositories owned by an organization:
+          # GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
