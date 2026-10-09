@@ -9,6 +9,8 @@ A small Linux server does the work: Asterisk takes the SIP call from the door pa
 door-opening digit when you tap **Open**. The iPad only runs a web page saved to its Home
 Screen. You do not need an app or an account.
 
+https://github.com/user-attachments/assets/e939ac84-8b92-4fef-81e4-5c646a6f682f
+
 ## See it in action
 
 **The weather panel.** The photo, the icon, the words and the chart follow the weather.
