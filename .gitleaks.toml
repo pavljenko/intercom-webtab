@@ -1,0 +1,8 @@
+# gitleaks configuration: the default rules plus a narrow allowlist for false positives.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Weather photo cache keys (photo group name + 4 hex digits) are not secrets"
+regexTarget = "secret"
+regexes = ['''^[a-z]+(?:-[a-z]+)*-[0-9a-f]{4}$''']
