@@ -9,14 +9,19 @@ A small Linux server does the work: Asterisk takes the SIP call from the door pa
 door-opening digit when you tap **Open**. The iPad only runs a web page saved to its Home
 Screen. You do not need an app or an account.
 
-| Idle: weather panel | A visitor is ringing |
+| Idle: rain ending soon | Idle: rain expected at 16:00 |
 |---|---|
-| ![Idle station showing rain forecast](docs/screenshots/idle-rain.png) | ![Incoming call with the camera picture and the Answer button](docs/screenshots/ring.png) |
-| **Door opened** | **Idle in winter** |
-| ![The gate was opened, the Open button is green](docs/screenshots/opened.png) | ![Idle station showing snow and frost](docs/screenshots/idle-snow.png) |
+| ![Idle station, rain on the window, rain ending within the hour](docs/screenshots/idle-rain.png) | ![Idle station, clouds, rain expected in the afternoon](docs/screenshots/idle-cloudy.png) |
+| **A visitor is ringing** | **Door opened** |
+| ![Incoming call with the camera picture and the Answer button](docs/screenshots/ring.png) | ![The gate was opened, the Open button is green](docs/screenshots/opened.png) |
+| **Frost and snow** | **Heat** |
+| ![Idle station at night with falling snow, feels like minus ten](docs/screenshots/idle-snow.png) | ![Idle station in a heat wave with the sun close up](docs/screenshots/idle-heat.png) |
+| **Thunderstorm** | **Cloudy night** |
+| ![Idle station during a thunderstorm](docs/screenshots/idle-storm.png) | ![Idle station on a cloudy night with the moon, rain in the morning](docs/screenshots/idle-night.png) |
 
-*The screenshots come from the preview server, so they show a test pattern and generated
-backgrounds instead of a real camera and photos.*
+*Screenshots from the preview server (`tools/preview_server.py --real-photos`): the weather
+backgrounds are the real CC0 / public-domain photos the station uses, the camera picture is a
+test pattern.*
 
 ## Features
 

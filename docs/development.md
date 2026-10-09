@@ -82,6 +82,7 @@ in the incoming context, as Asterisk would. Nothing real is ever dialled.
 
 ```sh
 python3 tools/preview_server.py            # http://127.0.0.1:8897/preview?mock=rain
+python3 tools/preview_server.py --real-photos   # the curated catalogue photos (needs network)
 ```
 
 This server uses only the standard library. Pillow is optional: it draws placeholder

@@ -26,7 +26,8 @@ Routes:
   /api/ver            the VER of static/index.html, so "/" never reloads in a loop
   POST /api/*         {"ok": true, "stub": true}; the request body is logged
   /stream?panel=...   a generated test-pattern JPEG (never a real camera frame)
-  /ph/<key>/bg.jpg|panel.jpg   generated gradient "photos" (scene = key before the first "-")
+  /ph/<key>/bg.jpg|panel.jpg   generated gradient "photos" (scene = key before the first "-"),
+                               or the curated catalogue photos with --real-photos
   /ws                 WebSocket stub: hello {"stub": true}, demo events, a pulse every 5 s
   anything else       files from static/ (icons/, ring/, mock/, buttons/, dots.js, icon.svg)
 
@@ -186,12 +187,31 @@ def _photo(key):
     return _jpeg(bg), _jpeg(panel)
 
 
+REAL_PHOTOS = False       # --real-photos: the curated Openverse catalogue instead of gradients
+
+
+def _real_photo(key):
+    """The catalogue photo behind a panel's photo key, processed exactly like on a station
+    (network: Openverse). None when the key is not in the catalogue or the download fails."""
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        from intercom_webtab.weather import photo as wp
+        entry = wp.PhotoStore().by_key.get(key)
+        if not entry:
+            return None
+        item = wp.process(wp.http_get(wp.PROXY % entry[1]["id"]))
+        return item["bg"], item["panel"]
+    except Exception as e:
+        sys.stderr.write("real photo %s failed: %s\n" % (key, e))
+        return None
+
+
 def photo(key, part):
     if Image is None:
         return None
     with _img_lock:
         if key not in _img_cache:
-            _img_cache[key] = _photo(key)
+            _img_cache[key] = (REAL_PHOTOS and _real_photo(key)) or _photo(key)
         bg, pn = _img_cache[key]
     return bg if part == "bg" else pn
 
@@ -363,7 +383,11 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Intercom WebTab page preview (no real station involved)")
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--port", type=int, default=8897)
+    ap.add_argument("--real-photos", action="store_true",
+                    help="serve the curated Openverse photos (needs network) instead of gradients")
     args = ap.parse_args(argv)
+    global REAL_PHOTOS
+    REAL_PHOTOS = args.real_photos
     for msg in self_check():
         sys.stderr.write("WARNING: %s\n" % msg)
     if Image is None:

@@ -102,6 +102,12 @@ the [Openverse](https://openverse.org/) API's image proxy, processes them in mem
 never writes them to disk. No credit is legally required, but the creators are listed
 in the catalogue with thanks.
 
+The screenshots in `docs/screenshots/` contain six of these photos as processed
+backgrounds, all CC0: "Rain drops on window glass." by RM Shiblee Mehdi, "Street Light" by
+megforce1, "A clear blue sky with scattered fluffy white clouds." by Deepak Rajpal, "Active
+region 2674 on today's Sun" by upsidedown astronomer, "Lightning Dark" by Jeremy Thomas and
+"Dark Night" by Matthew Kane.
+
 ## Methods and formulas
 
 ### UTCI polynomial
